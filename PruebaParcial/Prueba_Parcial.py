@@ -8,6 +8,6 @@ Temas:
 Nota: 
 - Usar los pasos establecidos por el profesor para resolver el examen.
 """
-import PP_funciones
+import MenuPrincipal
 
-PP_funciones.MainMenu()
+MenuPrincipal.MainMenu()
