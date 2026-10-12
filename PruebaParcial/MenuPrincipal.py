@@ -35,6 +35,7 @@ def clearTerminal():
 def MainMenu():
     while True:
         try:
+            clearTerminal()
             print("\n----- BIENVENIDO AL PROGRAMA DE ESTADÍSTICA II -----")
             print("Opciones:" \
             "\n1. Problema de muestreo estratificado." \
