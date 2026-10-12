@@ -10,7 +10,7 @@ def Repeat(message, repetitions, item):
     print("\n" + message, end = "")
     for i in range(repetitions):
         print(item, end = "", flush = True)
-        time.sleep(0.3)
+        time.sleep(0.1)
     print("\n")
 
 
@@ -22,7 +22,7 @@ def SelectMenuOption(number, option, function):
         else:
             Repeat(f"Redirigiendo a la opción {number}", 3, ".")
         clearTerminal()
-        time.sleep(0.2)
+        time.sleep(0.1)
         function()
 
 
